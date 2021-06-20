@@ -3,6 +3,7 @@ pragma solidity ^0.8.0;
 
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
+// I hope this works!
 contract Gact is ERC20 {
     address public minter;
     constructor() public payable ERC20('Gaius Coleman Token', 'GACT') {
